@@ -19,11 +19,27 @@ Primeramente, se realiazaron las intancias en el Custom Compiler de lo que es el
 Seguidamente se implementó lo que sería una señal de reloj utilizando la fuente de pulsos, para simular un reloj real. Debido a que es una señal sin retardos, se le colocaron 2 inversores con un tamaño de 1X y 4X. De esta manera se hace una merara realista de lo que es una pendiente de clk a las entradas del flip flop. Se adjuntan las evidencias en las siguientes imágenes.
 <p float="center">
   <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
-     <em>Flip flop con entradas y salidasd</em>
+     <em>Flip flop con entradas y salidas</em>
 </p>
 
 ## Parte 3.
 Para esta parte se debe realizar una comparación de datos simulados con los datos provistos por el fabricante. Utilizando Liberty Displayer, se obtuvieron las características eléctricas del flip flop. Una vez teniendo el reloj listo, se implementaron una serie de simulaciones que nos permitieron determinar y comparar los datos provistos por el fabricante. Se adjunta la tabla comparativa y las imágenes de las simulaciones.
+<p float="center">
+  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+     <em>Tiempo de setup D to CN (fall)</em>
+</p>
+<p float="center">
+  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+     <em>Tiempo de hold D to CN (rise)</em>
+</p>
+<p float="center">
+  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+     <em>Tiempo de CN to Q (low to high)</em>
+</p>
+<p float="center">
+  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+     <em>Tiempo de CN to Q (high to low)</em>
+</p>
 | Tiempo | Fabricante | Simulado |
 |--------------|--------------|------------|
 | Setup D to CN (rise) | 0.2731 ns    | 215 ps     |
