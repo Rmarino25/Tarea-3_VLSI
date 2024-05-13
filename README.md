@@ -1,5 +1,5 @@
 # Tarea-3_VLSI
-esta tarea se cetrará en la instanciación y caracterización de un flip flip estático Amo-Esclavo de 1 bit, utilizando la herramienta de Custom Compiler. El objetivo principal es validar el comportamiento eléctico del flip flop mediante simualciones detallas y comparaciones con los datos del fabricante. Estos procesos son de suma importancia para asegurar fiabilidad y el rendimiento de los sistemas digitales.
+Esta tarea se cetrará en la instanciación y caracterización de un flip flip estático Amo-Esclavo de 1 bit, utilizando la herramienta de Custom Compiler. El objetivo principal es validar el comportamiento eléctico del flip flop mediante simualciones detallas y comparaciones con los datos del fabricante. Estos procesos son de suma importancia para asegurar fiabilidad y el rendimiento de los sistemas digitales.
 ## Parte 1.
 Primeramente, se realiazaron las intancias en el Custom Compiler de lo que es el equematico y el trazado del flip flop estático Amo-Esclavo de 1 bit, se adjunta las evidencias en las siguientes imágenes.
 <p float="center">
