@@ -40,13 +40,13 @@ Para esta parte se debe realizar una comparación de datos simulados con los dat
   <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
      <em>Tiempo de CN to Q (high to low)</em>
 </p>
-
+En la siguiente tabla se hace una comparación de los datos simulados con los provistos por fabricante.
 | Tiempo | Fabricante | Simulado |
 |--------------|--------------|------------|
 | Setup D to CN (rise) | 0.2731 ns    | 215 ps     |
 | Setup D to CN (fall) | 1.1499 ns    | 212 p      |
 | Hold D to CN (rise)  | 1.6704 ns    | 269 p      |
 | Hold D to CN (fall)  | 0.7623 ns    | 164 p      |
-| Delay CN to Q (low to high) | 0.9109 ns   | 316 ps     |
-| Delay CN to Q (high to low) | 0.9440 ns   | 76.2 ps    |
+| Delay CN to Q (low to high) | 0.9109 ns  | 316 ps  |
+| Delay CN to Q (high to low) | 0.9440 ns  | 76.2 ps |
 
