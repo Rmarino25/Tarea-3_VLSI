@@ -60,7 +60,7 @@ Para las simulaciones, el reloj tuvo una pendiente de 39.8p.
      <em>Tiempo de hold D to CN (fall)</em>
 </p>
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+  <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/42958e28-a69b-4d02-b8ad-ca04ea47ed8f" width="500"  /><br>
      <em>Error de hold D to CN (fall)</em>
 </p>
 
