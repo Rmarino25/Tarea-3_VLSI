@@ -68,9 +68,9 @@ En la siguiente tabla se hace una comparación de los datos simulados con los pr
 
 | Tiempo                         | Fabricante [ns]       | Simulado [ps] |
 |--------------------------------|-----------------------|---------------|
-| Setup D to CN (rise)           | [0.106 a -0.338] ns   | 96.4 ps        |
-| Setup D to CN (fall)           | [0.221 a  0.023] ns   | 227 ps        |
-| Hold D to CN (rise)            | [0.135 a  0.529] ns   | 114 ps        |
+| Setup D to CN (rise)           | [-0.338 a 0.106] ns   | 96.4 ps        |
+| Setup D to CN (fall)           | [0.023  a 0.221] ns   | 227 ps        |
+| Hold D to CN (rise)            | [0.135  a 0.529] ns   | 114 ps        |
 | Hold D to CN (fall)            | [-0.137 a 0.104] ns   | 115 ps        |
 
 
