@@ -25,12 +25,18 @@ Seguidamente se implementó lo que sería una señal de reloj utilizando la fuen
 
 ## Parte 3.
 Para esta parte se debe realizar una comparación de datos simulados con los datos provistos por el fabricante. Utilizando Liberty Displayer, se obtuvieron las características eléctricas del flip flop. Una vez teniendo el reloj listo, se implementaron una serie de simulaciones que nos permitieron determinar y comparar los datos provistos por el fabricante. Adémas se le incoroporó una carga a la salida de F04 con inversores mínimos. Se adjunta la tabla comparativa y las imágenes de las simulaciones.
+
+Para las simulaciones, el reloj tuvo una pendiente de 39.8p.
+<p float="center">
+  <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/b9ce5a79-710d-4fdb-a0f3-cbde6e72499d" width="500"  /><br>
+     <em>Pendiente del clock</em>
+</p>
 <p float="center">
   <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/1262b192-d5f5-4e53-8128-6ac78fc99f62" width="500"  /><br>
      <em>Tiempo de setup D to CN (rise)</em>
 </p>
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+  <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/30c49f8e-a8eb-43be-be57-e18caa99bef4" width="500"  /><br>
      <em>Error de setup D to CN (rise)</em>
 </p>
 <p float="center">
@@ -42,30 +48,29 @@ Para esta parte se debe realizar una comparación de datos simulados con los dat
      <em>Error de setup D to CN (fall)</em>
 </p>
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+  <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/8ed13544-c84d-4e71-b5c0-16c162ed9ead" width="500"  /><br>
      <em>Tiempo de hold D to CN (rise)</em>
 </p>
 <p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
+  <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/386b0b01-6eb2-4d39-89c0-ada4798df49c" width="500"  /><br>
+     <em>Error de hold D to CN (rise)</em>
+</p>
+<p float="center">
+  <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/ad048a3e-ba93-4615-bbbb-b690070121b0" width="500"  /><br>
      <em>Tiempo de hold D to CN (fall)</em>
 </p>
 <p float="center">
   <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
-     <em>Tiempo de CN to Q (low to high)</em>
-</p>
-<p float="center">
-  <img src="https://github.com/Rmarino25/Tarea-2_VLSI/assets/110353604/c39b46da-6a98-491f-b0a4-98da1df38584" width="500"  /><br>
-     <em>Tiempo de CN to Q (high to low)</em>
+     <em>Error de hold D to CN (fall)</em>
 </p>
 
 En la siguiente tabla se hace una comparación de los datos simulados con los provistos por fabricante.
 
-| Tiempo | Fabricante | Simulado |
-|--------------|--------------|------------|
-| Setup D to CN (rise) | 0.2731 ns    | 215 ps     |
-| Setup D to CN (fall) | 1.1499 ns    | 212 p      |
-| Hold D to CN (rise)  | 1.6704 ns    | 269 p      |
-| Hold D to CN (fall)  | 0.7623 ns    | 164 p      |
-| Delay CN to Q (low to high) | 0.9109 ns  | 316 ps  |
-| Delay CN to Q (high to low) | 0.9440 ns  | 76.2 ps |
+| Tiempo                         | Fabricante [ns]       | Simulado [ps] |
+|--------------------------------|-----------------------|---------------|
+| Setup D to CN (rise)           | [0.106 a -0.338] ns   | 96.4 ps        |
+| Setup D to CN (fall)           | [0.221 a  0.023] ns   | 227 ps        |
+| Hold D to CN (rise)            | [0.135 a  0.529] ns   | 114 ps        |
+| Hold D to CN (fall)            | [-0.137 a 0.104] ns   | 115 ps        |
+
 
