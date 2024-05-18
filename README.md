@@ -26,7 +26,7 @@ Seguidamente se implementó lo que sería una señal de reloj utilizando la fuen
 ## Parte 3.
 Para esta parte se debe realizar una comparación de datos simulados con los datos provistos por el fabricante. Utilizando Liberty Displayer, se obtuvieron las características eléctricas del flip flop. Una vez teniendo el reloj listo, se implementaron una serie de simulaciones que nos permitieron determinar y comparar los datos provistos por el fabricante. Adémas se le incoroporó una carga a la salida de F04 con inversores mínimos. Se adjunta la tabla comparativa y las imágenes de las simulaciones.
 
-Para las simulaciones, el reloj tuvo una pendiente de 39.8 ps, lo que sugiere que, según los datos del fabricante, los valores de hold y setup deberían determinarse dentro del rango de pendiente de 14 ps a 1120 ps.
+Para las simulaciones, el reloj tuvo una pendiente de 39.8 ps. Según los datos del fabricante, los valores de hold y setup deberían determinarse dentro del rango de pendiente de 14 ps a 1120 ps.
 <p float="center">
   <img src="https://github.com/Rmarino25/Tarea-3_VLSI/assets/110353604/b9ce5a79-710d-4fdb-a0f3-cbde6e72499d" width="500"  /><br>
      <em>Pendiente del clock</em>
